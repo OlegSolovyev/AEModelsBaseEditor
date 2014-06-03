@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F4EC578193E1CA40038A8C6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4EC577193E1CA40038A8C6 /* Cocoa.framework */; };
+		7F4EC582193E1CA40038A8C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F4EC580193E1CA40038A8C6 /* InfoPlist.strings */; };
+		7F4EC584193E1CA40038A8C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4EC583193E1CA40038A8C6 /* main.m */; };
+		7F4EC588193E1CA40038A8C6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7F4EC586193E1CA40038A8C6 /* Credits.rtf */; };
+		7F4EC58B193E1CA40038A8C6 /* AEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4EC58A193E1CA40038A8C6 /* AEAppDelegate.m */; };
+		7F4EC58E193E1CA40038A8C6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F4EC58C193E1CA40038A8C6 /* MainMenu.xib */; };
+		7F4EC590193E1CA40038A8C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4EC58F193E1CA40038A8C6 /* Images.xcassets */; };
+		7F4EC597193E1CA40038A8C6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4EC596193E1CA40038A8C6 /* XCTest.framework */; };
+		7F4EC598193E1CA40038A8C6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4EC577193E1CA40038A8C6 /* Cocoa.framework */; };
+		7F4EC5A0193E1CA40038A8C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F4EC59E193E1CA40038A8C6 /* InfoPlist.strings */; };
+		7F4EC5A2193E1CA40038A8C6 /* AE_ModelsBase_EditorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4EC5A1193E1CA40038A8C6 /* AE_ModelsBase_EditorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F4EC599193E1CA40038A8C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F4EC56C193E1CA40038A8C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F4EC573193E1CA40038A8C6;
+			remoteInfo = "AE ModelsBase Editor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F4EC574193E1CA40038A8C6 /* AE ModelsBase Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AE ModelsBase Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4EC577193E1CA40038A8C6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7F4EC57A193E1CA40038A8C6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7F4EC57B193E1CA40038A8C6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7F4EC57C193E1CA40038A8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7F4EC57F193E1CA40038A8C6 /* AE ModelsBase Editor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AE ModelsBase Editor-Info.plist"; sourceTree = "<group>"; };
+		7F4EC581193E1CA40038A8C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F4EC583193E1CA40038A8C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F4EC585193E1CA40038A8C6 /* AE ModelsBase Editor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AE ModelsBase Editor-Prefix.pch"; sourceTree = "<group>"; };
+		7F4EC587193E1CA40038A8C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7F4EC589193E1CA40038A8C6 /* AEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AEAppDelegate.h; sourceTree = "<group>"; };
+		7F4EC58A193E1CA40038A8C6 /* AEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AEAppDelegate.m; sourceTree = "<group>"; };
+		7F4EC58D193E1CA40038A8C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7F4EC58F193E1CA40038A8C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7F4EC595193E1CA40038A8C6 /* AE ModelsBase EditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AE ModelsBase EditorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4EC596193E1CA40038A8C6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7F4EC59D193E1CA40038A8C6 /* AE ModelsBase EditorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AE ModelsBase EditorTests-Info.plist"; sourceTree = "<group>"; };
+		7F4EC59F193E1CA40038A8C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F4EC5A1193E1CA40038A8C6 /* AE_ModelsBase_EditorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AE_ModelsBase_EditorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F4EC571193E1CA40038A8C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4EC578193E1CA40038A8C6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4EC592193E1CA40038A8C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4EC598193E1CA40038A8C6 /* Cocoa.framework in Frameworks */,
+				7F4EC597193E1CA40038A8C6 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F4EC56B193E1CA40038A8C6 = {
+			isa = PBXGroup;
+			children = (
+				7F4EC57D193E1CA40038A8C6 /* AE ModelsBase Editor */,
+				7F4EC59B193E1CA40038A8C6 /* AE ModelsBase EditorTests */,
+				7F4EC576193E1CA40038A8C6 /* Frameworks */,
+				7F4EC575193E1CA40038A8C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F4EC575193E1CA40038A8C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F4EC574193E1CA40038A8C6 /* AE ModelsBase Editor.app */,
+				7F4EC595193E1CA40038A8C6 /* AE ModelsBase EditorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F4EC576193E1CA40038A8C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F4EC577193E1CA40038A8C6 /* Cocoa.framework */,
+				7F4EC596193E1CA40038A8C6 /* XCTest.framework */,
+				7F4EC579193E1CA40038A8C6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F4EC579193E1CA40038A8C6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F4EC57A193E1CA40038A8C6 /* AppKit.framework */,
+				7F4EC57B193E1CA40038A8C6 /* CoreData.framework */,
+				7F4EC57C193E1CA40038A8C6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7F4EC57D193E1CA40038A8C6 /* AE ModelsBase Editor */ = {
+			isa = PBXGroup;
+			children = (
+				7F4EC589193E1CA40038A8C6 /* AEAppDelegate.h */,
+				7F4EC58A193E1CA40038A8C6 /* AEAppDelegate.m */,
+				7F4EC58C193E1CA40038A8C6 /* MainMenu.xib */,
+				7F4EC58F193E1CA40038A8C6 /* Images.xcassets */,
+				7F4EC57E193E1CA40038A8C6 /* Supporting Files */,
+			);
+			path = "AE ModelsBase Editor";
+			sourceTree = "<group>";
+		};
+		7F4EC57E193E1CA40038A8C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F4EC57F193E1CA40038A8C6 /* AE ModelsBase Editor-Info.plist */,
+				7F4EC580193E1CA40038A8C6 /* InfoPlist.strings */,
+				7F4EC583193E1CA40038A8C6 /* main.m */,
+				7F4EC585193E1CA40038A8C6 /* AE ModelsBase Editor-Prefix.pch */,
+				7F4EC586193E1CA40038A8C6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F4EC59B193E1CA40038A8C6 /* AE ModelsBase EditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F4EC5A1193E1CA40038A8C6 /* AE_ModelsBase_EditorTests.m */,
+				7F4EC59C193E1CA40038A8C6 /* Supporting Files */,
+			);
+			path = "AE ModelsBase EditorTests";
+			sourceTree = "<group>";
+		};
+		7F4EC59C193E1CA40038A8C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F4EC59D193E1CA40038A8C6 /* AE ModelsBase EditorTests-Info.plist */,
+				7F4EC59E193E1CA40038A8C6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F4EC573193E1CA40038A8C6 /* AE ModelsBase Editor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F4EC5A5193E1CA40038A8C6 /* Build configuration list for PBXNativeTarget "AE ModelsBase Editor" */;
+			buildPhases = (
+				7F4EC570193E1CA40038A8C6 /* Sources */,
+				7F4EC571193E1CA40038A8C6 /* Frameworks */,
+				7F4EC572193E1CA40038A8C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AE ModelsBase Editor";
+			productName = "AE ModelsBase Editor";
+			productReference = 7F4EC574193E1CA40038A8C6 /* AE ModelsBase Editor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F4EC594193E1CA40038A8C6 /* AE ModelsBase EditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F4EC5A8193E1CA40038A8C6 /* Build configuration list for PBXNativeTarget "AE ModelsBase EditorTests" */;
+			buildPhases = (
+				7F4EC591193E1CA40038A8C6 /* Sources */,
+				7F4EC592193E1CA40038A8C6 /* Frameworks */,
+				7F4EC593193E1CA40038A8C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F4EC59A193E1CA40038A8C6 /* PBXTargetDependency */,
+			);
+			name = "AE ModelsBase EditorTests";
+			productName = "AE ModelsBase EditorTests";
+			productReference = 7F4EC595193E1CA40038A8C6 /* AE ModelsBase EditorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F4EC56C193E1CA40038A8C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AE;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Oleg Solovyev";
+				TargetAttributes = {
+					7F4EC594193E1CA40038A8C6 = {
+						TestTargetID = 7F4EC573193E1CA40038A8C6;
+					};
+				};
+			};
+			buildConfigurationList = 7F4EC56F193E1CA40038A8C6 /* Build configuration list for PBXProject "AE ModelsBase Editor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F4EC56B193E1CA40038A8C6;
+			productRefGroup = 7F4EC575193E1CA40038A8C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F4EC573193E1CA40038A8C6 /* AE ModelsBase Editor */,
+				7F4EC594193E1CA40038A8C6 /* AE ModelsBase EditorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F4EC572193E1CA40038A8C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4EC582193E1CA40038A8C6 /* InfoPlist.strings in Resources */,
+				7F4EC590193E1CA40038A8C6 /* Images.xcassets in Resources */,
+				7F4EC588193E1CA40038A8C6 /* Credits.rtf in Resources */,
+				7F4EC58E193E1CA40038A8C6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4EC593193E1CA40038A8C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4EC5A0193E1CA40038A8C6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F4EC570193E1CA40038A8C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4EC58B193E1CA40038A8C6 /* AEAppDelegate.m in Sources */,
+				7F4EC584193E1CA40038A8C6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4EC591193E1CA40038A8C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4EC5A2193E1CA40038A8C6 /* AE_ModelsBase_EditorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F4EC59A193E1CA40038A8C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F4EC573193E1CA40038A8C6 /* AE ModelsBase Editor */;
+			targetProxy = 7F4EC599193E1CA40038A8C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F4EC580193E1CA40038A8C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F4EC581193E1CA40038A8C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7F4EC586193E1CA40038A8C6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F4EC587193E1CA40038A8C6 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7F4EC58C193E1CA40038A8C6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F4EC58D193E1CA40038A8C6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		7F4EC59E193E1CA40038A8C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F4EC59F193E1CA40038A8C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F4EC5A3193E1CA40038A8C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7F4EC5A4193E1CA40038A8C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7F4EC5A6193E1CA40038A8C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AE ModelsBase Editor/AE ModelsBase Editor-Prefix.pch";
+				INFOPLIST_FILE = "AE ModelsBase Editor/AE ModelsBase Editor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7F4EC5A7193E1CA40038A8C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AE ModelsBase Editor/AE ModelsBase Editor-Prefix.pch";
+				INFOPLIST_FILE = "AE ModelsBase Editor/AE ModelsBase Editor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7F4EC5A9193E1CA40038A8C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AE ModelsBase Editor.app/Contents/MacOS/AE ModelsBase Editor";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AE ModelsBase Editor/AE ModelsBase Editor-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AE ModelsBase EditorTests/AE ModelsBase EditorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7F4EC5AA193E1CA40038A8C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AE ModelsBase Editor.app/Contents/MacOS/AE ModelsBase Editor";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AE ModelsBase Editor/AE ModelsBase Editor-Prefix.pch";
+				INFOPLIST_FILE = "AE ModelsBase EditorTests/AE ModelsBase EditorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F4EC56F193E1CA40038A8C6 /* Build configuration list for PBXProject "AE ModelsBase Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4EC5A3193E1CA40038A8C6 /* Debug */,
+				7F4EC5A4193E1CA40038A8C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F4EC5A5193E1CA40038A8C6 /* Build configuration list for PBXNativeTarget "AE ModelsBase Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4EC5A6193E1CA40038A8C6 /* Debug */,
+				7F4EC5A7193E1CA40038A8C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F4EC5A8193E1CA40038A8C6 /* Build configuration list for PBXNativeTarget "AE ModelsBase EditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4EC5A9193E1CA40038A8C6 /* Debug */,
+				7F4EC5AA193E1CA40038A8C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F4EC56C193E1CA40038A8C6 /* Project object */;
+}
