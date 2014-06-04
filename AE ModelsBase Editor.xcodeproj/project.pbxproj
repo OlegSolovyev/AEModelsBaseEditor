@@ -18,6 +18,11 @@
 		7F4EC598193E1CA40038A8C6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4EC577193E1CA40038A8C6 /* Cocoa.framework */; };
 		7F4EC5A0193E1CA40038A8C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F4EC59E193E1CA40038A8C6 /* InfoPlist.strings */; };
 		7F4EC5A2193E1CA40038A8C6 /* AE_ModelsBase_EditorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4EC5A1193E1CA40038A8C6 /* AE_ModelsBase_EditorTests.m */; };
+		7F4EC5AE193E258E0038A8C6 /* AEMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4EC5AC193E258E0038A8C6 /* AEMainViewController.m */; };
+		7F4EC5AF193E258E0038A8C6 /* AEMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F4EC5AD193E258E0038A8C6 /* AEMainViewController.xib */; };
+		7F4EC5B6193E26CC0038A8C6 /* AEAddModelWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4EC5B4193E26CC0038A8C6 /* AEAddModelWindow.m */; };
+		7F4EC5B7193E26CC0038A8C6 /* AEAddModelWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F4EC5B5193E26CC0038A8C6 /* AEAddModelWindow.xib */; };
+		7F4EC5B9193E37180038A8C6 /* allModels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7F4EC5B8193E37180038A8C6 /* allModels.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +55,13 @@
 		7F4EC59D193E1CA40038A8C6 /* AE ModelsBase EditorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AE ModelsBase EditorTests-Info.plist"; sourceTree = "<group>"; };
 		7F4EC59F193E1CA40038A8C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7F4EC5A1193E1CA40038A8C6 /* AE_ModelsBase_EditorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AE_ModelsBase_EditorTests.m; sourceTree = "<group>"; };
+		7F4EC5AB193E258E0038A8C6 /* AEMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEMainViewController.h; sourceTree = "<group>"; };
+		7F4EC5AC193E258E0038A8C6 /* AEMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEMainViewController.m; sourceTree = "<group>"; };
+		7F4EC5AD193E258E0038A8C6 /* AEMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AEMainViewController.xib; sourceTree = "<group>"; };
+		7F4EC5B3193E26CC0038A8C6 /* AEAddModelWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEAddModelWindow.h; sourceTree = "<group>"; };
+		7F4EC5B4193E26CC0038A8C6 /* AEAddModelWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEAddModelWindow.m; sourceTree = "<group>"; };
+		7F4EC5B5193E26CC0038A8C6 /* AEAddModelWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AEAddModelWindow.xib; sourceTree = "<group>"; };
+		7F4EC5B8193E37180038A8C6 /* allModels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = allModels.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +130,13 @@
 				7F4EC589193E1CA40038A8C6 /* AEAppDelegate.h */,
 				7F4EC58A193E1CA40038A8C6 /* AEAppDelegate.m */,
 				7F4EC58C193E1CA40038A8C6 /* MainMenu.xib */,
+				7F4EC5AB193E258E0038A8C6 /* AEMainViewController.h */,
+				7F4EC5AC193E258E0038A8C6 /* AEMainViewController.m */,
+				7F4EC5AD193E258E0038A8C6 /* AEMainViewController.xib */,
+				7F4EC5B3193E26CC0038A8C6 /* AEAddModelWindow.h */,
+				7F4EC5B4193E26CC0038A8C6 /* AEAddModelWindow.m */,
+				7F4EC5B5193E26CC0038A8C6 /* AEAddModelWindow.xib */,
+				7F4EC5B8193E37180038A8C6 /* allModels.txt */,
 				7F4EC58F193E1CA40038A8C6 /* Images.xcassets */,
 				7F4EC57E193E1CA40038A8C6 /* Supporting Files */,
 			);
@@ -231,8 +250,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F4EC5B9193E37180038A8C6 /* allModels.txt in Resources */,
 				7F4EC582193E1CA40038A8C6 /* InfoPlist.strings in Resources */,
+				7F4EC5B7193E26CC0038A8C6 /* AEAddModelWindow.xib in Resources */,
 				7F4EC590193E1CA40038A8C6 /* Images.xcassets in Resources */,
+				7F4EC5AF193E258E0038A8C6 /* AEMainViewController.xib in Resources */,
 				7F4EC588193E1CA40038A8C6 /* Credits.rtf in Resources */,
 				7F4EC58E193E1CA40038A8C6 /* MainMenu.xib in Resources */,
 			);
@@ -254,6 +276,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F4EC58B193E1CA40038A8C6 /* AEAppDelegate.m in Sources */,
+				7F4EC5B6193E26CC0038A8C6 /* AEAddModelWindow.m in Sources */,
+				7F4EC5AE193E258E0038A8C6 /* AEMainViewController.m in Sources */,
 				7F4EC584193E1CA40038A8C6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

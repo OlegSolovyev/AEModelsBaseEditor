@@ -10,4 +10,7 @@
 
 @interface AEMainViewController : NSViewController
 
+@property (unsafe_unretained) IBOutlet NSTextView *dbView;
+@property (nonatomic, retain) NSWindow *window;
+@property (nonatomic, retain) NSString *dbPath;
 @end

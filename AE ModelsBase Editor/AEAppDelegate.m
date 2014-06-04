@@ -7,12 +7,21 @@
 //
 
 #import "AEAppDelegate.h"
+#import "AEMainViewController.h"
+@interface AEAppDelegate()
+@property (nonatomic,strong) IBOutlet AEMainViewController *mainViewController;
+@end
 
 @implementation AEAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    self.mainViewController = [[AEMainViewController alloc] initWithNibName:@"AEMainViewController" bundle:nil];
+    [self.mainViewController setWindow:self.window];
+    
+    [self.window setFrame:NSMakeRect(0, 0, 1280, 840) display:YES];
+    [self.window.contentView addSubview:self.mainViewController.view];
+    self.mainViewController.view.frame = ((NSView*)self.window.contentView).bounds;
 }
 
 @end
