@@ -23,6 +23,7 @@
 		7F4EC5B6193E26CC0038A8C6 /* AEAddModelWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4EC5B4193E26CC0038A8C6 /* AEAddModelWindow.m */; };
 		7F4EC5B7193E26CC0038A8C6 /* AEAddModelWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F4EC5B5193E26CC0038A8C6 /* AEAddModelWindow.xib */; };
 		7F4EC5B9193E37180038A8C6 /* allModels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7F4EC5B8193E37180038A8C6 /* allModels.txt */; };
+		7F4EC5BF1940FE460038A8C6 /* AE.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4EC5BE1940FE460038A8C6 /* AE.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		7F4EC5B4193E26CC0038A8C6 /* AEAddModelWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEAddModelWindow.m; sourceTree = "<group>"; };
 		7F4EC5B5193E26CC0038A8C6 /* AEAddModelWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AEAddModelWindow.xib; sourceTree = "<group>"; };
 		7F4EC5B8193E37180038A8C6 /* allModels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = allModels.txt; sourceTree = "<group>"; };
+		7F4EC5BE1940FE460038A8C6 /* AE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AE.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				7F4EC5B4193E26CC0038A8C6 /* AEAddModelWindow.m */,
 				7F4EC5B5193E26CC0038A8C6 /* AEAddModelWindow.xib */,
 				7F4EC5B8193E37180038A8C6 /* allModels.txt */,
+				7F4EC5BE1940FE460038A8C6 /* AE.png */,
 				7F4EC58F193E1CA40038A8C6 /* Images.xcassets */,
 				7F4EC57E193E1CA40038A8C6 /* Supporting Files */,
 			);
@@ -257,6 +260,7 @@
 				7F4EC5AF193E258E0038A8C6 /* AEMainViewController.xib in Resources */,
 				7F4EC588193E1CA40038A8C6 /* Credits.rtf in Resources */,
 				7F4EC58E193E1CA40038A8C6 /* MainMenu.xib in Resources */,
+				7F4EC5BF1940FE460038A8C6 /* AE.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +495,7 @@
 				7F4EC5A7193E1CA40038A8C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F4EC5A8193E1CA40038A8C6 /* Build configuration list for PBXNativeTarget "AE ModelsBase EditorTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +504,7 @@
 				7F4EC5AA193E1CA40038A8C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
